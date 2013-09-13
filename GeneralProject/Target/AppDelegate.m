@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GPEncryption.h"
 
 @implementation AppDelegate
 
@@ -15,8 +16,21 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self encryptionTest];
+    
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)encryptionTest
+{
+    //right
+    NSString *string = [GPEncryption desEncryptString:@"www.baidu.com"];
+    NSLog(@"%@ is the result of des string:%@",string, [GPEncryption desDecryptString:string]);
+    
+    //wrong
+    NSLog(@"%@ is the result of des string:%@ use wrong key",string, [GPEncryption desDecryptString:string withKey:@"123"]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

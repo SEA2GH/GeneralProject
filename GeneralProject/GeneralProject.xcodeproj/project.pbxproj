@@ -16,7 +16,9 @@
 		BE02534517E32D0F00F7ADF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE02534417E32D0F00F7ADF9 /* UIKit.framework */; };
 		BE02534717E32D1500F7ADF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE02534617E32D1500F7ADF9 /* Foundation.framework */; };
 		BE02534917E32D1C00F7ADF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE02534817E32D1C00F7ADF9 /* CoreGraphics.framework */; };
-		BE02534E17E32D6E00F7ADF9 /* NSData+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */; };
+		BE02535317E335BF00F7ADF9 /* NSString+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02534B17E32D5300F7ADF9 /* NSString+GPCategory.m */; };
+		BE02535517E335D700F7ADF9 /* GPEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535117E330D100F7ADF9 /* GPEncryption.m */; };
+		BE02535617E335DB00F7ADF9 /* NSData+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		BE02534B17E32D5300F7ADF9 /* NSString+GPCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GPCategory.m"; sourceTree = "<group>"; };
 		BE02534C17E32D6E00F7ADF9 /* NSData+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GPCategory.h"; sourceTree = "<group>"; };
 		BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GPCategory.m"; sourceTree = "<group>"; };
+		BE02535017E330D100F7ADF9 /* GPEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPEncryption.h; sourceTree = "<group>"; };
+		BE02535117E330D100F7ADF9 /* GPEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPEncryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		BE02532017E32C9100F7ADF9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BE02534F17E32FE000F7ADF9 /* Encryption */,
 				BE02532117E32C9100F7ADF9 /* Category */,
 			);
 			path = Classes;
@@ -122,6 +127,15 @@
 				BE02533F17E32CFF00F7ADF9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE02534F17E32FE000F7ADF9 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				BE02535017E330D100F7ADF9 /* GPEncryption.h */,
+				BE02535117E330D100F7ADF9 /* GPEncryption.m */,
+			);
+			path = Encryption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +204,9 @@
 			files = (
 				BE02533617E32CFF00F7ADF9 /* main.m in Sources */,
 				BE02533A17E32CFF00F7ADF9 /* AppDelegate.m in Sources */,
-				BE02534E17E32D6E00F7ADF9 /* NSData+GPCategory.m in Sources */,
+				BE02535317E335BF00F7ADF9 /* NSString+GPCategory.m in Sources */,
+				BE02535517E335D700F7ADF9 /* GPEncryption.m in Sources */,
+				BE02535617E335DB00F7ADF9 /* NSData+GPCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

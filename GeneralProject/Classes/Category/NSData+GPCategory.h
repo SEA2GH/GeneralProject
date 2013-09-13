@@ -11,3 +11,9 @@
 @interface NSData (GPCategory)
 
 @end
+
+@interface NSData (Base64)
+
+- (NSString *)base64Encoding;
+
+@end
