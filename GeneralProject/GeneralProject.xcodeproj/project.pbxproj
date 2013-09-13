@@ -19,6 +19,9 @@
 		BE02535317E335BF00F7ADF9 /* NSString+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02534B17E32D5300F7ADF9 /* NSString+GPCategory.m */; };
 		BE02535517E335D700F7ADF9 /* GPEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535117E330D100F7ADF9 /* GPEncryption.m */; };
 		BE02535617E335DB00F7ADF9 /* NSData+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */; };
+		BE02535A17E3397900F7ADF9 /* GPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535917E3397900F7ADF9 /* GPBaseView.m */; };
+		BE02535D17E3399800F7ADF9 /* GPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535C17E3399800F7ADF9 /* GPBaseCell.m */; };
+		BE02536017E339B100F7ADF9 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,12 @@
 		BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GPCategory.m"; sourceTree = "<group>"; };
 		BE02535017E330D100F7ADF9 /* GPEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPEncryption.h; sourceTree = "<group>"; };
 		BE02535117E330D100F7ADF9 /* GPEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPEncryption.m; sourceTree = "<group>"; };
+		BE02535817E3397900F7ADF9 /* GPBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseView.h; sourceTree = "<group>"; };
+		BE02535917E3397900F7ADF9 /* GPBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseView.m; sourceTree = "<group>"; };
+		BE02535B17E3399800F7ADF9 /* GPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseCell.h; sourceTree = "<group>"; };
+		BE02535C17E3399800F7ADF9 /* GPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseCell.m; sourceTree = "<group>"; };
+		BE02535E17E339B100F7ADF9 /* GPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
+		BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,7 @@
 		BE02532017E32C9100F7ADF9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BE02535717E3394C00F7ADF9 /* Base */,
 				BE02534F17E32FE000F7ADF9 /* Encryption */,
 				BE02532117E32C9100F7ADF9 /* Category */,
 			);
@@ -136,6 +146,19 @@
 				BE02535117E330D100F7ADF9 /* GPEncryption.m */,
 			);
 			path = Encryption;
+			sourceTree = "<group>";
+		};
+		BE02535717E3394C00F7ADF9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE02535B17E3399800F7ADF9 /* GPBaseCell.h */,
+				BE02535C17E3399800F7ADF9 /* GPBaseCell.m */,
+				BE02535817E3397900F7ADF9 /* GPBaseView.h */,
+				BE02535917E3397900F7ADF9 /* GPBaseView.m */,
+				BE02535E17E339B100F7ADF9 /* GPBaseViewController.h */,
+				BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +230,9 @@
 				BE02535317E335BF00F7ADF9 /* NSString+GPCategory.m in Sources */,
 				BE02535517E335D700F7ADF9 /* GPEncryption.m in Sources */,
 				BE02535617E335DB00F7ADF9 /* NSData+GPCategory.m in Sources */,
+				BE02535A17E3397900F7ADF9 /* GPBaseView.m in Sources */,
+				BE02535D17E3399800F7ADF9 /* GPBaseCell.m in Sources */,
+				BE02536017E339B100F7ADF9 /* GPBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +357,7 @@
 				BE02534317E32CFF00F7ADF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
