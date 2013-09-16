@@ -11,3 +11,11 @@
 @interface NSString (GPCategory)
 
 @end
+
+@interface NSString (Judgement)
+
+//判断字符串是否为空(长度，内容，空格)
+- (BOOL)stringIsEmpty;
+
+@end
+
