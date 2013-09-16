@@ -23,6 +23,8 @@
 		BE02535D17E3399800F7ADF9 /* GPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535C17E3399800F7ADF9 /* GPBaseCell.m */; };
 		BE02536017E339B100F7ADF9 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */; };
 		BEAC114317E6EAD90046C928 /* GPBaseViewController+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */; };
+		BEAC119E17E702E20046C928 /* GPGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC119D17E702E20046C928 /* GPGlobal.m */; };
+		BEAC11A417E703690046C928 /* UIScreen+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC11A317E703690046C928 /* UIScreen+GPCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
 		BEAC114117E6EAD90046C928 /* GPBaseViewController+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPBaseViewController+GPCategory.h"; sourceTree = "<group>"; };
 		BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GPBaseViewController+GPCategory.m"; sourceTree = "<group>"; };
+		BEAC119C17E702E20046C928 /* GPGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPGlobal.h; sourceTree = "<group>"; };
+		BEAC119D17E702E20046C928 /* GPGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPGlobal.m; sourceTree = "<group>"; };
+		BEAC11A217E703690046C928 /* UIScreen+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GPCategory.h"; sourceTree = "<group>"; };
+		BEAC11A317E703690046C928 /* UIScreen+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GPCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		BE02532017E32C9100F7ADF9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BEAC119B17E702AD0046C928 /* Configure */,
 				BE02535717E3394C00F7ADF9 /* Base */,
 				BE02534F17E32FE000F7ADF9 /* Encryption */,
 				BE02532117E32C9100F7ADF9 /* Category */,
@@ -92,10 +99,12 @@
 		BE02532117E32C9100F7ADF9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				BE02534A17E32D5300F7ADF9 /* NSString+GPCategory.h */,
-				BE02534B17E32D5300F7ADF9 /* NSString+GPCategory.m */,
 				BE02534C17E32D6E00F7ADF9 /* NSData+GPCategory.h */,
 				BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */,
+				BEAC11A217E703690046C928 /* UIScreen+GPCategory.h */,
+				BEAC11A317E703690046C928 /* UIScreen+GPCategory.m */,
+				BE02534A17E32D5300F7ADF9 /* NSString+GPCategory.h */,
+				BE02534B17E32D5300F7ADF9 /* NSString+GPCategory.m */,
 				BEAC114117E6EAD90046C928 /* GPBaseViewController+GPCategory.h */,
 				BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */,
 			);
@@ -164,6 +173,15 @@
 				BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		BEAC119B17E702AD0046C928 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC119C17E702E20046C928 /* GPGlobal.h */,
+				BEAC119D17E702E20046C928 /* GPGlobal.m */,
+			);
+			path = Configure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +257,8 @@
 				BE02535D17E3399800F7ADF9 /* GPBaseCell.m in Sources */,
 				BE02536017E339B100F7ADF9 /* GPBaseViewController.m in Sources */,
 				BEAC114317E6EAD90046C928 /* GPBaseViewController+GPCategory.m in Sources */,
+				BEAC119E17E702E20046C928 /* GPGlobal.m in Sources */,
+				BEAC11A417E703690046C928 /* UIScreen+GPCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
