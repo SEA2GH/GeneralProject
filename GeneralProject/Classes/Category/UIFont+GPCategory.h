@@ -12,4 +12,13 @@
 
 + (BOOL)fontIsDownloaded:(NSString *)fontName;
 
+// download font
++ (void)asynchronouslyDownloadFontName:(NSString *)fontName
+                                 begin:(void(^)())begin
+                      beginDownloading:(void(^)())beginDownloading
+                           downloading:(void(^)(double progressValue))downloading
+                     finishDownloading:(void(^)())finishDownloading
+                                finish:(void(^)(BOOL errorDuringDownload))finish
+                                  fail:(void(^)(NSString *errorMessage))fail;
+
 @end
