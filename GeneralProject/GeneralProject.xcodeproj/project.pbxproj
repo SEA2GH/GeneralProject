@@ -22,6 +22,8 @@
 		BE02535A17E3397900F7ADF9 /* GPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535917E3397900F7ADF9 /* GPBaseView.m */; };
 		BE02535D17E3399800F7ADF9 /* GPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535C17E3399800F7ADF9 /* GPBaseCell.m */; };
 		BE02536017E339B100F7ADF9 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */; };
+		BE3548E517EEC096009609F8 /* GPBaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3548E417EEC096009609F8 /* GPBaseOperation.m */; };
+		BE3548E817EEDC21009609F8 /* UIColor+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3548E717EEDC21009609F8 /* UIColor+GPCategory.m */; };
 		BE3B34C417E93A08000EB2FB /* UIFont+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3B34C317E93A08000EB2FB /* UIFont+GPCategory.m */; };
 		BE3B34C717E9796C000EB2FB /* NSDate+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3B34C617E9796C000EB2FB /* NSDate+GPCategory.m */; };
 		BEAC114317E6EAD90046C928 /* GPBaseViewController+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */; };
@@ -55,6 +57,10 @@
 		BE02535C17E3399800F7ADF9 /* GPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseCell.m; sourceTree = "<group>"; };
 		BE02535E17E339B100F7ADF9 /* GPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
 		BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
+		BE3548E317EEC096009609F8 /* GPBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseOperation.h; sourceTree = "<group>"; };
+		BE3548E417EEC096009609F8 /* GPBaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseOperation.m; sourceTree = "<group>"; };
+		BE3548E617EEDC21009609F8 /* UIColor+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GPCategory.h"; sourceTree = "<group>"; };
+		BE3548E717EEDC21009609F8 /* UIColor+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GPCategory.m"; sourceTree = "<group>"; };
 		BE3B34C217E93A08000EB2FB /* UIFont+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GPCategory.h"; sourceTree = "<group>"; };
 		BE3B34C317E93A08000EB2FB /* UIFont+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GPCategory.m"; sourceTree = "<group>"; };
 		BE3B34C517E9796B000EB2FB /* NSDate+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GPCategory.h"; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 			children = (
 				BE3B34C217E93A08000EB2FB /* UIFont+GPCategory.h */,
 				BE3B34C317E93A08000EB2FB /* UIFont+GPCategory.m */,
+				BE3548E617EEDC21009609F8 /* UIColor+GPCategory.h */,
+				BE3548E717EEDC21009609F8 /* UIColor+GPCategory.m */,
 				BE02534C17E32D6E00F7ADF9 /* NSData+GPCategory.h */,
 				BE02534D17E32D6E00F7ADF9 /* NSData+GPCategory.m */,
 				BE3B34C517E9796B000EB2FB /* NSDate+GPCategory.h */,
@@ -179,6 +187,8 @@
 				BE02535C17E3399800F7ADF9 /* GPBaseCell.m */,
 				BE02535817E3397900F7ADF9 /* GPBaseView.h */,
 				BE02535917E3397900F7ADF9 /* GPBaseView.m */,
+				BE3548E317EEC096009609F8 /* GPBaseOperation.h */,
+				BE3548E417EEC096009609F8 /* GPBaseOperation.m */,
 				BE02535E17E339B100F7ADF9 /* GPBaseViewController.h */,
 				BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */,
 			);
@@ -271,6 +281,8 @@
 				BEAC11A417E703690046C928 /* UIScreen+GPCategory.m in Sources */,
 				BE3B34C417E93A08000EB2FB /* UIFont+GPCategory.m in Sources */,
 				BE3B34C717E9796C000EB2FB /* NSDate+GPCategory.m in Sources */,
+				BE3548E517EEC096009609F8 /* GPBaseOperation.m in Sources */,
+				BE3548E817EEDC21009609F8 /* UIColor+GPCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

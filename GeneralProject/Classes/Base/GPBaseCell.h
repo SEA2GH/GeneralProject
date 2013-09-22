@@ -10,7 +10,7 @@
 
 @protocol GPBaseCellDelegate;
 
-@interface GPBaseCell : UITableViewCell
+@interface GPBaseCell : UITableViewCell <UITextFieldDelegate>
 
 @property (nonatomic, weak) id<GPBaseCellDelegate> delegate;
 @property (strong, nonatomic) NSIndexPath *indexPath;

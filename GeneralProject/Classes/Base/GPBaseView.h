@@ -10,7 +10,7 @@
 
 @protocol GPBaseViewDelegate;
 
-@interface GPBaseView : UIView
+@interface GPBaseView : UIView <UITextFieldDelegate>
 
 @property (nonatomic, weak) id<GPBaseViewDelegate> delegate;
 
@@ -18,7 +18,7 @@
 
 @protocol GPBaseViewDelegate <NSObject>
 
-@optional
+@required
 - (void)view:(GPBaseView *)view clickedElement:(UIView *)element;
 
 @end
