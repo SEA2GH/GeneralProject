@@ -7,32 +7,27 @@
 //
 
 #import "AppDelegate.h"
-#import "GPEncryption.h"
+
+#import "RootViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    // Override point for customization after application launch.
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:[[RootViewController alloc] init]];
     
-    [self encryptionTest];
-    
+    [self.window setRootViewController:self.navigationController];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
-- (void)encryptionTest
-{
-    //right
-    NSString *string = [GPEncryption desEncryptString:@"www.baidu.com"];
-    NSLog(@"%@ is the result of des string:%@",string, [GPEncryption desDecryptString:string]);
-    
-    //wrong
-    NSLog(@"%@ is the result of des string:%@ use wrong key",string, [GPEncryption desDecryptString:string withKey:@"123"]);
-}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

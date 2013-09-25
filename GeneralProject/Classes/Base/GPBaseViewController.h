@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GPBaseView.h"
 
-@interface GPBaseViewController : UIViewController
+@interface GPBaseViewController : UIViewController <GPBaseViewDelegate>
+{
+    
+}
 
 @end

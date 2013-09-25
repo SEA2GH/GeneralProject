@@ -27,9 +27,20 @@
 		BE3548EB17EEE3D8009609F8 /* UIImage+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3548EA17EEE3D8009609F8 /* UIImage+GPCategory.m */; };
 		BE3B34C417E93A08000EB2FB /* UIFont+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3B34C317E93A08000EB2FB /* UIFont+GPCategory.m */; };
 		BE3B34C717E9796C000EB2FB /* NSDate+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3B34C617E9796C000EB2FB /* NSDate+GPCategory.m */; };
+		BE585F7117F27945005F7D65 /* GPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE585F7017F27945005F7D65 /* GPTableViewController.m */; };
 		BEAC114317E6EAD90046C928 /* GPBaseViewController+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */; };
 		BEAC119E17E702E20046C928 /* GPGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC119D17E702E20046C928 /* GPGlobal.m */; };
 		BEAC11A417E703690046C928 /* UIScreen+GPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC11A317E703690046C928 /* UIScreen+GPCategory.m */; };
+		BEF3C48B17F15ACF005EB8BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C48A17F15ACF005EB8BC /* RootViewController.m */; };
+		BEF3C49117F15D1C005EB8BC /* GPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C48F17F15D1C005EB8BC /* GPLoginViewController.m */; };
+		BEF3C49217F15D1C005EB8BC /* GPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF3C49017F15D1C005EB8BC /* GPLoginViewController.xib */; };
+		BEF3C49517F15D3D005EB8BC /* GPLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C49417F15D3D005EB8BC /* GPLoginView.m */; };
+		BEF3C49917F15DCF005EB8BC /* GPLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C49817F15DCF005EB8BC /* GPLoginTextField.m */; };
+		BEF3C49C17F16027005EB8BC /* GPActivityIndicatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C49B17F16027005EB8BC /* GPActivityIndicatorButton.m */; };
+		BEF3C49E17F16196005EB8BC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3C49D17F16196005EB8BC /* CoreText.framework */; };
+		BEF3C4A317F16F48005EB8BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3C4A217F16F48005EB8BC /* CoreData.framework */; };
+		BEF3C4A717F17ADA005EB8BC /* GPUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C4A617F17ADA005EB8BC /* GPUserObject.m */; };
+		BEF3C4AA17F17CBC005EB8BC /* GPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C4A917F17CBC005EB8BC /* GPAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,12 +79,31 @@
 		BE3B34C317E93A08000EB2FB /* UIFont+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GPCategory.m"; sourceTree = "<group>"; };
 		BE3B34C517E9796B000EB2FB /* NSDate+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GPCategory.h"; sourceTree = "<group>"; };
 		BE3B34C617E9796C000EB2FB /* NSDate+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GPCategory.m"; sourceTree = "<group>"; };
+		BE585F6F17F27945005F7D65 /* GPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTableViewController.h; sourceTree = "<group>"; };
+		BE585F7017F27945005F7D65 /* GPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTableViewController.m; sourceTree = "<group>"; };
 		BEAC114117E6EAD90046C928 /* GPBaseViewController+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPBaseViewController+GPCategory.h"; sourceTree = "<group>"; };
 		BEAC114217E6EAD90046C928 /* GPBaseViewController+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GPBaseViewController+GPCategory.m"; sourceTree = "<group>"; };
 		BEAC119C17E702E20046C928 /* GPGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPGlobal.h; sourceTree = "<group>"; };
 		BEAC119D17E702E20046C928 /* GPGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPGlobal.m; sourceTree = "<group>"; };
 		BEAC11A217E703690046C928 /* UIScreen+GPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GPCategory.h"; sourceTree = "<group>"; };
 		BEAC11A317E703690046C928 /* UIScreen+GPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GPCategory.m"; sourceTree = "<group>"; };
+		BEF3C48917F15ACF005EB8BC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BEF3C48A17F15ACF005EB8BC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BEF3C48E17F15D1C005EB8BC /* GPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLoginViewController.h; sourceTree = "<group>"; };
+		BEF3C48F17F15D1C005EB8BC /* GPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLoginViewController.m; sourceTree = "<group>"; };
+		BEF3C49017F15D1C005EB8BC /* GPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPLoginViewController.xib; sourceTree = "<group>"; };
+		BEF3C49317F15D3D005EB8BC /* GPLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLoginView.h; sourceTree = "<group>"; };
+		BEF3C49417F15D3D005EB8BC /* GPLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLoginView.m; sourceTree = "<group>"; };
+		BEF3C49717F15DCF005EB8BC /* GPLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLoginTextField.h; sourceTree = "<group>"; };
+		BEF3C49817F15DCF005EB8BC /* GPLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLoginTextField.m; sourceTree = "<group>"; };
+		BEF3C49A17F16027005EB8BC /* GPActivityIndicatorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPActivityIndicatorButton.h; sourceTree = "<group>"; };
+		BEF3C49B17F16027005EB8BC /* GPActivityIndicatorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPActivityIndicatorButton.m; sourceTree = "<group>"; };
+		BEF3C49D17F16196005EB8BC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		BEF3C4A217F16F48005EB8BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		BEF3C4A517F17ADA005EB8BC /* GPUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUserObject.h; sourceTree = "<group>"; };
+		BEF3C4A617F17ADA005EB8BC /* GPUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUserObject.m; sourceTree = "<group>"; };
+		BEF3C4A817F17CBC005EB8BC /* GPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAlertView.h; sourceTree = "<group>"; };
+		BEF3C4A917F17CBC005EB8BC /* GPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +113,8 @@
 			files = (
 				BE02534917E32D1C00F7ADF9 /* CoreGraphics.framework in Frameworks */,
 				BE02534717E32D1500F7ADF9 /* Foundation.framework in Frameworks */,
+				BEF3C4A317F16F48005EB8BC /* CoreData.framework in Frameworks */,
+				BEF3C49E17F16196005EB8BC /* CoreText.framework in Frameworks */,
 				BE02534517E32D0F00F7ADF9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +135,8 @@
 		BE02532017E32C9100F7ADF9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BEF3C49617F15D96005EB8BC /* CustomView */,
+				BEF3C48C17F15CE1005EB8BC /* MVCModule */,
 				BEAC119B17E702AD0046C928 /* Configure */,
 				BE02535717E3394C00F7ADF9 /* Base */,
 				BE02534F17E32FE000F7ADF9 /* Encryption */,
@@ -147,6 +181,8 @@
 			children = (
 				BE02534817E32D1C00F7ADF9 /* CoreGraphics.framework */,
 				BE02534617E32D1500F7ADF9 /* Foundation.framework */,
+				BEF3C4A217F16F48005EB8BC /* CoreData.framework */,
+				BEF3C49D17F16196005EB8BC /* CoreText.framework */,
 				BE02534417E32D0F00F7ADF9 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -155,9 +191,12 @@
 		BE02532F17E32CFF00F7ADF9 /* Target */ = {
 			isa = PBXGroup;
 			children = (
+				BE02533517E32CFF00F7ADF9 /* main.m */,
 				BE02533817E32CFF00F7ADF9 /* AppDelegate.h */,
 				BE02533917E32CFF00F7ADF9 /* AppDelegate.m */,
 				BE02533017E32CFF00F7ADF9 /* Supporting Files */,
+				BEF3C48917F15ACF005EB8BC /* RootViewController.h */,
+				BEF3C48A17F15ACF005EB8BC /* RootViewController.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -167,7 +206,6 @@
 			children = (
 				BE02533117E32CFF00F7ADF9 /* Target-Info.plist */,
 				BE02533217E32CFF00F7ADF9 /* InfoPlist.strings */,
-				BE02533517E32CFF00F7ADF9 /* main.m */,
 				BE02533717E32CFF00F7ADF9 /* Target-Prefix.pch */,
 				BE02533B17E32CFF00F7ADF9 /* Default.png */,
 				BE02533D17E32CFF00F7ADF9 /* Default@2x.png */,
@@ -196,6 +234,8 @@
 				BE3548E417EEC096009609F8 /* GPBaseOperation.m */,
 				BE02535E17E339B100F7ADF9 /* GPBaseViewController.h */,
 				BE02535F17E339B100F7ADF9 /* GPBaseViewController.m */,
+				BE585F6F17F27945005F7D65 /* GPTableViewController.h */,
+				BE585F7017F27945005F7D65 /* GPTableViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -207,6 +247,49 @@
 				BEAC119D17E702E20046C928 /* GPGlobal.m */,
 			);
 			path = Configure;
+			sourceTree = "<group>";
+		};
+		BEF3C48C17F15CE1005EB8BC /* MVCModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3C4A417F17A7C005EB8BC /* Model */,
+				BEF3C48D17F15CE1005EB8BC /* Login */,
+			);
+			path = MVCModule;
+			sourceTree = "<group>";
+		};
+		BEF3C48D17F15CE1005EB8BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3C49317F15D3D005EB8BC /* GPLoginView.h */,
+				BEF3C49417F15D3D005EB8BC /* GPLoginView.m */,
+				BEF3C48E17F15D1C005EB8BC /* GPLoginViewController.h */,
+				BEF3C48F17F15D1C005EB8BC /* GPLoginViewController.m */,
+				BEF3C49017F15D1C005EB8BC /* GPLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BEF3C49617F15D96005EB8BC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3C4A817F17CBC005EB8BC /* GPAlertView.h */,
+				BEF3C4A917F17CBC005EB8BC /* GPAlertView.m */,
+				BEF3C49717F15DCF005EB8BC /* GPLoginTextField.h */,
+				BEF3C49817F15DCF005EB8BC /* GPLoginTextField.m */,
+				BEF3C49A17F16027005EB8BC /* GPActivityIndicatorButton.h */,
+				BEF3C49B17F16027005EB8BC /* GPActivityIndicatorButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BEF3C4A417F17A7C005EB8BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3C4A517F17ADA005EB8BC /* GPUserObject.h */,
+				BEF3C4A617F17ADA005EB8BC /* GPUserObject.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +346,7 @@
 				BE02533C17E32CFF00F7ADF9 /* Default.png in Resources */,
 				BE02533E17E32CFF00F7ADF9 /* Default@2x.png in Resources */,
 				BE02534017E32CFF00F7ADF9 /* Default-568h@2x.png in Resources */,
+				BEF3C49217F15D1C005EB8BC /* GPLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +373,14 @@
 				BE3548E517EEC096009609F8 /* GPBaseOperation.m in Sources */,
 				BE3548E817EEDC21009609F8 /* UIColor+GPCategory.m in Sources */,
 				BE3548EB17EEE3D8009609F8 /* UIImage+GPCategory.m in Sources */,
+				BEF3C48B17F15ACF005EB8BC /* RootViewController.m in Sources */,
+				BEF3C49117F15D1C005EB8BC /* GPLoginViewController.m in Sources */,
+				BEF3C49517F15D3D005EB8BC /* GPLoginView.m in Sources */,
+				BEF3C49917F15DCF005EB8BC /* GPLoginTextField.m in Sources */,
+				BEF3C49C17F16027005EB8BC /* GPActivityIndicatorButton.m in Sources */,
+				BEF3C4A717F17ADA005EB8BC /* GPUserObject.m in Sources */,
+				BEF3C4AA17F17CBC005EB8BC /* GPAlertView.m in Sources */,
+				BE585F7117F27945005F7D65 /* GPTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
